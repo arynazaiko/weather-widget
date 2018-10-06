@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+.container {
+  padding-top: 20px;
+  display: block;
+  width: 300px;
+  margin: 0 auto;   
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.widget {}
+.widget .one-day-forecast {
+  position: relative;
+  background-color: springgreen;
+  color: white;
+  height: 250px;
+}
+
+.widget .one-day-forecast .city {
+  float: left;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.widget .one-day-forecast .country {
+  float: left;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.widget .one-day-forecast .main-description {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.widget .one-day-forecast .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.widget .one-day-forecast .footer .col {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.widget .one-day-forecast .wind {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.widget .five-days-forecast {
+  background-color: lightgray;
+  font-size: 12px;
+}
+
+.widget .five-days-forecast-block {
+  padding: 10px;
+}
+
+.widget .five-days-forecast .date {
+  float: left;
+  width: 33.3333%;
+  text-align: left;
+}
+
+.widget .five-days-forecast .icon {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+}
+
+.widget .five-days-forecast .temperature {
+  float: left;
+  width: 33.3333%;
+  text-align: right;
+}
